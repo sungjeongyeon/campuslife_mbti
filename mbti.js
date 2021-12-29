@@ -172,8 +172,8 @@ var result = {
     "mbti": "ESTJ",
     "explain": "뒷담 대신 앞담<br>엄격한 관리자",
     "job_ex" : "너도_될수있어_헤르미온느",
-    "job" : "누구보다 규칙을 중요하게 생각하고 체계적인 것을 좋아하는 당신은<br>인사나 행정부터 회사의 관리를 담당하기 좋습니다.",
-    "explain2": "ESTJ가 가장 중요하게 생각하는 것은 현실감각이다.<br>때문에 회사에서 상급자와 교류하는 것은 자신의 성공을 앞당길 수 있고,<br>생활수준이 높은 사람과의 친분은 여러모로 본인에게 자극제가 된다고 생각한다.<br>뒷말을 안하는 대신에 앞에서 말을 하는 스타일로 조직생활에서<br>총대 매고 지르는 경우가 많다.",
+    "job" : "누구보다 규칙을 중요하게 생각하고 체계적인 것을 좋아하는<br>당신은 인사나 행정부터 회사의 관리를 담당하기 좋습니다.",
+    "explain2": "ESTJ가 가장 중요하게 생각하는 것은 현실감각이다.<br>때문에 회사에서 상급자와 교류하는 것은 자신의 성공을<br>앞당길 수 있고, 생활수준이 높은 사람과의 친분은 여러모로<br>본인에게 자극제가 된다고 생각한다. 뒷말을 안하는 대신에<br>앞에서 말을 하는 스타일로 조직생활에서 총대 매고<br>지르는 경우가 많다.",
     "img" : "estj.jpg"
   },
   "ESFJ": {
@@ -233,6 +233,7 @@ var retry = function(){
   document.querySelector('#test').style.display = "block";
   i = 1;
   EI.value=SN.value=TF.value=JP.value= 0;
+  history.replaceState({}, null, location.pathname);
   next();
 }
 
@@ -283,6 +284,7 @@ var next = function(){
     document.querySelector('#job').innerHTML = result[mbti]['job'];
     document.querySelector('#explain2').innerHTML = result[mbti]['explain2'];
     document.querySelector('#result_img').setAttribute("src", 'img/' + result[mbti]['img']);
+    history.replaceState({result: result}, '', '?result='+mbti); // MBTI 결과 쿼리 파라미터 삽입
   }
   else{
     document.querySelector('#number').innerHTML = i+'/12';
@@ -317,10 +319,7 @@ Kakao.isInitialized();
 
 // 카톡 공유 실행 함수
 var kakaoShare = function(){
- dataLayer.push({
-   'event': 'kakao_share'
- });
- var title = document.querySelector('.mymbti').textContent;
+ var title = document.querySelector('#mymbti').textContent;
  var desc = document.querySelector('#explain').textContent;
  var imgUrl = document.querySelector('#result_img').src;
  var mbti = new URL(location.href).searchParams.get('result');
@@ -333,22 +332,22 @@ content: {
  imageUrl:
    imgUrl,
  link: {
-   mobileWebUrl: 'http://campuslife-mbti.com?result='+mbti,
+   mobileWebUrl: 'https://campuslife-mbti.com?result='+mbti,
  },
 },
 buttons: [
  {
    title: '결과 확인',
    link: {
-     mobileWebUrl: 'http://campuslife-mbti.com?result='+mbti,
-     webUrl: 'http://campuslife-mbti.com?result='+mbti,
+     mobileWebUrl: 'https://campuslife-mbti.com?result='+mbti,
+     webUrl: 'https://campuslife-mbti.com?result='+mbti,
    },
  },
  {
    title: '테스트하기',
    link: {
-     mobileWebUrl: 'http://campuslife-mbti.com',
-     webUrl: 'http://campuslife-mbti.com',
+     mobileWebUrl: 'https://campuslife-mbti.com',
+     webUrl: 'https://campuslife-mbti.com',
    },
  },
 ]
