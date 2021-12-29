@@ -1,0 +1,26 @@
+#wrap{
+  max-width: 500px;
+  margin: 30px auto;
+}
+#main{
+  text-align:center;
+}
+
+#number{
+  text-align: end;
+}
+
+#test{
+  text-align: center;
+  display:none;
+}
+
+#result_img{
+  margin: auto 0;
+  width:50%;
+}
+
+#result{
+  text-align : center;
+  display : none;
+}
