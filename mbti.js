@@ -3,84 +3,84 @@ var i = 1;
 var testNum = {
   "1": {
     "title": "문제 1번",
-    "description": "학교 축제가 열렸다. 재학생 대상 노래 대회가 열린다면? ",
+    "description": "학교 축제가 열렸다.<br>재학생 대상 노래 대회가 열린다면? ",
     "type": "EI",
     "A": "당장 신청해야지!! 오늘부터 코노 출첵",
     "B": "오 구경 재밌겠는데? "
   },
   "2": {
     "title": "문제 2번",
-    "description": "아는 사람 아무도 없이 홀로 교양수업을 듣게된 첫날, 당신은?",
+    "description": "아는 사람 아무도 없이<br>홀로 교양수업을 듣게된 첫날, 당신은?",
     "type": "EI",
     "A": "저 친구 마음에 드는데? 말걸어 봐야지",
-    "B": "조용히 맨 뒷자리를 찾아 앉는다."
+    "B": "조용히 빈자리를 찾아 앉는다."
   },
   "3": {
     "title": "문제 3번",
-    "description": "창밖에 날씨가 좋다. 자체휴강을 때린 당신은?",
+    "description": "창밖에 날씨가 좋다.<br>자체휴강을 때린 당신은?",
     "type": "EI",
     "A": "친구한테 전화해서 드라이브가기",
     "B": "침대에서 광합성이 최고"
   },
   "4": {
     "title": "문제 4번",
-    "description": "동기가 포스터를 보여주며 공모전에 같이 나가자고 한다.<br>당신은? ",
+    "description": "동기가 포스터를 보여주며<br>공모전에 같이 나가자고 한다. 당신은? ",
     "type": "SN",
-    "A": "분야별로 특화된 친구들을 구해본다.",
+    "A": "작년도 수상 사례를 찾아본다.",
     "B": "어떤 기획을 할지 아이디어를 생각해본다."
   },
   "5": {
     "title": "문제 5번",
-    "description": "어벤져스 영화 \'스파이더맨\'을 보고 든 생각은?",
+    "description": "어벤져스 영화 \'스파이더맨\'을<br>보고 든 생각은?",
     "type": "SN",
     "A": "와 역시 마블이구나,, 액션씬 진짜 ㄷㄷ이다.",
     "B": "아니 스파이더맨 할라면 고소공포증 없어야되네..ㅠ"
   },
   "6": {
     "title": "문제 6번",
-    "description": "왠지 기분이 좋아서 오랜만에 복권을 구입했다. 당신은?",
+    "description": "왠지 기분이 좋아서 오랜만에<br>복권을 구입했다. 당신은?",
     "type": "SN",
     "A": "일단 주머니에 넣어두고 주말에 맞춰본다.",
     "B": "아 1등되면 어떡하지.. 자퇴해야되나.. 그래도 학교는 졸업해야되는데.."
   },
   "7": {
     "title": "문제 7번",
-    "description": "별로 안친한 동기가 감기 걸렸다고 칭얼걸린다",
+    "description": "별로 안친한 동기가<br>감기 걸렸다고 칭얼거린다면?",
     "type": "TF",
     "A": "아.. 병원은 갔어?",
     "B": "에고 어쩌다가ㅠㅠ 괜찮아?"
   },
   "8": {
     "title": "문제 8번",
-    "description": "선배가 갑자기 호출하더니 이렇게 얘기한다.<br>\"너 이렇게 행동하면 아무도 너 안좋아해\"",
+    "description": "선배가 갑자기 부르더니 이렇게 말한다.<br>\"이렇게 행동하면 아무도 너 안좋아해\"",
     "type": "TF",
     "A": "네 (속마음 : 어쩌라고 ㅋㅋ)",
     "B": "네..? (속마음 : 나 뭐 잘못했나ㅠㅠ 뭐지..)"
   },
   "9": {
     "title": "문제 9번",
-    "description": "오늘 면접 본 친구한테 전화가 왔다. <br>\"나 면접 망한 것 같아..\"",
+    "description": "오늘 면접 본 친구한테 전화가 왔다.<br>\"나 면접 망한 것 같아..\"",
     "type": "TF",
     "A": "왜? 준비는 잘하고 갔어? 질문 뭐였는데",
     "B": "에고 야 고생했어 ㅠㅠ 술이나 먹자"
   },
   "10": {
     "title": "문제 10번",
-    "description": "이번주 주말까지 제출해야하는 과제가 있다. 당신은?",
+    "description": "이번주 주말까지 제출해야하는<br>과제가 있다. 당신은?",
     "type": "JP",
     "A": "스케줄을 체크하고 미리미리 과제를 끝낸다.",
     "B": "버틸 때까지 버티다가 하루 전에 후다닥 처리한다."
   },
   "11": {
     "title": "문제 11번",
-    "description": "과제를 수행하는 중, 좋은 아이디어가 나왔다. 당신은?",
+    "description": "과제를 수행하는 중<br>좋은 아이디어가 나왔다. 당신은?",
     "type": "JP",
     "A": "계획 먼저 짜고 조사 해야지",
     "B": "조사부터 하고 계획해야지"
   },
   "12": {
     "title": "문제 12번",
-    "description": "기분이 울적해서 바다가 보고싶어졌다. 당신은?",
+    "description": "기분이 울적해서 바다가 보고싶어졌다.<br>당신은?",
     "type": "JP",
     "A": "캘린더를 확인하고 갈 수 있는 날짜를 확인한다.",
     "B": "바로 강릉 버스 표를 예매한다."
@@ -197,7 +197,7 @@ var result = {
     "explain": "애매한데 애매하지 않은<br>호기심 많은 예술가",
     "job_ex" : "너도_될수있어_레이디가가",
     "job" : "타고난 예술가라고 할 수 있는 당신은 뛰어난 호기심과<br>톡톡 튀는 상상력으로 순수예술 분야부터<br>디자이너, 사회사업에 적절합니다.",
-    "explain2": "ISFP 유형은 애매함 자체라고 표현할 수 있다.<br>소심하면서도 활발하고, 일처리를 미루면서도 결국 완벽하게<br>해내는 스타일이다. 이들에게는 재충전은 꼭 필요하다.<br>또 귀찮은 일을 굉장히 싫어하여 해야할 일이 없는 시간을 제일 좋아한다.<br>낯가림이 심해서 혼밥, 혼코노 등 혼자하는 걸 좋아한다.",
+    "explain2": "ISFP 유형은 애매함 자체다.<br>소심하면서도 활발하고, 일처리를 미루면서도 결국 완벽하게<br>해내는 스타일로 이들에게는 재충전 시간이 꼭 필요하다.<br>귀찮은 일을 굉장히 싫어하여 해야할 일이 없는 시간을 제일 좋아한다.<br>낯가림이 심해서 혼밥, 혼코노 등 혼자하는 걸 좋아한다.",
     "img" : "isfp.jpg"
   },
   "ESTP": {
@@ -332,15 +332,15 @@ content: {
  imageUrl:
    imgUrl,
  link: {
-   mobileWebUrl: 'https://campuslife-mbti.com?result='+mbti,
+   mobileWebUrl: 'https://campuslife-mbti.com?result='+ mbti,
  },
 },
 buttons: [
  {
    title: '결과 확인',
    link: {
-     mobileWebUrl: 'https://campuslife-mbti.com?result='+mbti,
-     webUrl: 'https://campuslife-mbti.com?result='+mbti,
+     mobileWebUrl: 'https://campuslife-mbti.com?result='+ mbti,
+     webUrl: 'https://campuslife-mbti.com?result='+ mbti,
    },
  },
  {
@@ -355,3 +355,16 @@ buttons: [
 }
 
 document.querySelector('#share_btn').addEventListener('click', kakaoShare);
+
+document.querySelector('#copy_btn').addEventListener('click', function(){
+  var url = "";
+  var textarea = document.createElement("textarea");
+  document.body.appendChild(textarea);
+  url = window.document.location.href;
+  textarea.value = url;
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+  alert("  "+ url + "  \n 복사 완료");
+        return false;
+      })
