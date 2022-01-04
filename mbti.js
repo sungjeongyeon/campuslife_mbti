@@ -230,7 +230,7 @@ document.querySelector('#start_btn').addEventListener('click', testStart);
 //테스트 다시시작
 var retry = function(){
   document.querySelector('#result').style.display = "none";
-  document.querySelector('#test').style.display = "block";
+  document.querySelector('#main').style.display = "block";
   i = 1;
   EI.value=SN.value=TF.value=JP.value= 0;
   history.replaceState({}, null, location.pathname);
